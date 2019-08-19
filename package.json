@@ -1,15 +1,18 @@
 {
-  "name": "hawk.admin",
-  "description": "Hawk admin",
-  "version": "0.0.1",
-  "repository": "https://github.com/codex-team/hawk.admin.git",
-  "main": "app.js",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "eslint": "^6.2.0",
-    "nodemon": "^1.19.1"
-  }
+    "name": "hawk.admin",
+    "description": "Hawk admin",
+    "version": "0.0.1",
+    "repository": "https://github.com/codex-team/hawk.admin.git",
+    "main": "app.js",
+    "license": "MIT",
+    "scripts": {
+        "dev": "nodemon ./src/app.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "eslint": "^6.2.0",
+        "nodemon": "^1.19.1"
+    }
 }
